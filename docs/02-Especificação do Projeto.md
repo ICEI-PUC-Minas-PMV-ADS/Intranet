@@ -27,8 +27,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Matheus Silva | Receber notificações do quadro de avisos assim que entrar na página          | Nunca perder nenhum aviso importante sobre o setor que trabalho na empresa               |
+|Matheus Silva      | Conseguir solicitar um chamado de TI                 | Ter suporte para solucionar um problema |
+|Ana Marcela | Saber quando é o aniversário dos meus colegas de trabalho | Poder parabenizá-los |
+|Ana Marcela | Receber as notícias mais recentes da empresa, em relação à mudanças de regras, benefícios e atualizações de cargos e funcionários |Não perder as notícias e acontecimentos da empresa |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -47,16 +49,26 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site irá oferecer uma aba descrita “Institucional”, nela conterá sub abas categorizadas com informações de cada aplicação.| ALTA | 
+|RF-002| Ao abrir o site será solicitado um login de acesso. O funcionário deverá inserir um nome de usuário, que pode ser criado pelo próprio ou disponibilizado pela empresa; uma senha também será solicitada e esta será criada ou pré-estabelecida ao colaborador. Os administradores do site terão acesso a mais funcionalidades.| ALTA |
+|RF-003| Na página principal serão exibidos os aniversariantes daquele determinado mês ou semana.| BAIXA |
+|RF-004| Além do disposto no RF-03, haverá um portal de notícias relacionadas a empresa e aos colaboradores, atualizadas esporadicamente.| MÉDIA |
+|RF-005| O site deve oferecer funcionalidade para abertura de chamadas de TI. |ALTA|
+|RF-006| Um quadro de avisos será exibido a cada funcionário, contendo informações sobre seu setor e da empresa.| MÉDIA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser compatível com os principais navegadores (Microsoft Edge, Firefox, Google Chrome). | ALTA | 
+|RNF-002| O site deve ter uma paleta de cores de referência igual a (https://colorhunt.co/palette/222831393e4600adb5eeee). | MÉDIA |
+|RNF-003| O site deverá ser responsivo para visualização em dispositivos móveis.| ALTA |
+|RNF-004| A intranet terá o código aberto, possibilitando que qualquer empresa possa utilizá-lo. | BAIXA |
+|RNF-005| HTML com boas práticas de acessibilidade. | MÉDIA |
+|RNF-006| O sistema será escrito utilizando as linguagens HTML5, CSS3, JavaScript e frameworks como Bootstrap. | ALTA |
+|RNF-007| O sistema utilizará o local storage do browser para puxar dados necessários. | MÉDIA |
+|RNF-008| O sistema deverá seguir a Lei Geral de Proteção de Dados Pessoais (LGPD). | ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -79,8 +91,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deve estar finalizado e não extrapolar a data de 26/06/2022. |
+|02| A intranet deve funcionar apenas na rede da empresa. |
+|03| O sistema deve se restringir às tecnologias básicas do Web Front-end |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
