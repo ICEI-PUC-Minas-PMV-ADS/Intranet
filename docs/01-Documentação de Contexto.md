@@ -1,46 +1,53 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A cada dia os meios de comunicação evoluem e transformam a vida ao nosso redor, contudo, comunicar sempre foi uma tarefa difícil, que exige clareza e facilidade na troca de informações.
+ 
+Em um nível empresarial, essa tarefa se torna ainda mais complexa devido à quantidade de processos existentes, colaboradores com culturas diferentes e, também, setores com metas distintas, o que torna imprescindível que a empresa promova os métodos corretos para que haja uma uniformidade na entrega de todos os seus funcionários.
+ 
+Tem-se como fato, que a comunicação interna organizacional, realizada de forma estratégica, efetivada e moldada de acordo com as necessidades da empresa, é de suma importância para o seu crescimento no mercado. Nessa perspectiva, a comunicação interna diz respeito ao esforço para transmissão, gerenciamento e compartilhamento de informações importantes dentro da organização.
+ 
+Conforme Pimenta (2002, p.58) “a comunicação dentro da empresa contribui para a definição e concretização de metas e objetivos, além de possibilitar a integração e equilíbrio entre seus componentes (departamentos, áreas e funcionários)”. Nesse sentido, uma comunicação efetiva torna o ambiente empresarial adequado a realizar tarefas e desenvolver atividades de maneira harmônica entre os setores e seus colaboradores.
+ 
+Buscando maneiras de facilitar ou diminuir os ruídos existentes nas organizações, faz-se necessário o desenvolvimento de ferramentas que promovam essa integração entre as pessoas. Sempre levando em consideração a cultura organizacional, o ambiente em que estão inseridos, o perfil dos colaboradores e a linguagem utilizada por eles. Tendo em vista que o sucesso da ferramenta depende da compreensão e absorção pelos usuários. 
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Percebe-se que, diariamente, empresas sofrem com problemas de comunicação interna e o número de colaboradores nas empresas é alto, tornando- se  ainda mais difícil impedir que informações não se percam ou sejam distorcidas, o que pode afetar o desempenho de seus colaboradores. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Com isso em vista, faz-se necessário a criação de ferramentas que possam minimizar esse gargalo na comunicação e facilitar os processos que envolvem todos os setores da empresa e adotar um canal oficial de comunicação se torna essencial.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Tem-se como objetivo geral a centralização de informações empresariais, para permitir a integração entre departamentos da empresa, treinamento de novos funcionários e trazer processos empresariais bem definidos. 
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+## Como objetivos específicos tem-se: 
+
+ * Realizar  um levantamento sobre as reais necessidades do time
+ * Analisar  as ferramentas de comunicação disponíveis, suas funcionalidades e aplicações
+ * Diminuir as barreiras de comunicação entre os colaboradores
+ * Alinhamento cultural da empresa
+ * Fornecer funcionalidades que permitam a comunicação fluida entre os colaboradores
+ * Integrar as notícias internas da empresa na Intranet
+ * Integrar os dados pessoais dos colaboradores
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Quanto maior o número de colaboradores da empresa, mais difícil impedir que informações não se percam ou sejam distorcidas. Por esse motivo, adotar um canal oficial de comunicação se torna essencial.A comunicação interna feita de maneira errônea pode trazer malefícios para o fluxo de trabalho de todos os colaboradores, pois pode surgir um efeito cascata, criando uma série contínua de erros que poderiam ser evitados com uma comunicação unificada.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Em concordância com o escritor, jornalista e filósofo de Israel, David Grossman, “Quando a comunicação é boa, ela informa. Quando é ótima, ela engaja e incentiva os colaboradores a agirem”. A frase refere-se em poucas palavras ao conceito muito importante de que o colaborador que é motivado por meio de uma comunicação frequente e bem planejada parte mais para a ação. Isso, claro, é uma vantagem competitiva para a organização.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Colaboradores da empresa de classes A e B.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Apesar de outras pessoas poderem se beneficiar da Intranet, o público-alvo principal são empresários e colaboradores de empresas que sofrem por ruídos de comunicação interna no seu dia a dia. 
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+ * Identificamos que os colaboradores possuem uma dor no que tange a  comunicação com a empresa, bem como com colegas de trabalho
+ * Empresários que precisam organizar os fluxos de trabalho da sua empresa, mas não têm capital para investir em sistemas exclusivos.
+
+
+
+
