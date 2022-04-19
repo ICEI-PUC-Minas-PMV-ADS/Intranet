@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Intranet
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO: DESENVOLVIMENTO WEB FRONT-END`
 
-`SEMESTRE`
+`1 SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Uma Intranet que permite um acesso restrito e promove a integração dos processos de uma empresa, facilitando o dia-a-dia dos seus colaboradores.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Guilherme Bonfim Lima
+* Gustavo Augusto
+* Matheus Fernandes
+* Michael Fernandes
+* Rafael Jordão
+* Sarah Jéssica
 
 ## Orientador
 
-* Nome completo do professor 1
+* Daniela Carvalho Monteiro Ferreira
 
 ## Instruções de utilização
 
