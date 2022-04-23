@@ -5,6 +5,13 @@
 
 Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
+|Ambiente   | Plataforma  | Link de Acesso |
+|------|-----------------------------------------|----|
+|Repositório de código fonte| GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/Intranet |
+|Documentos do  projeto| Google Drive | https://docs.google.com/document/d/1SaZyyIWDwgL1fLgUALYmpJcJz3IPPkUKgCfG8zrCHao/edit |
+|Projeto de Interface e Wireframes | Figma | https://www.figma.com/file/FfyN8wjoLRWjl3gzZd7MJQ/Intranet?node-id=0%3A1 |
+|Gerenciamento do Projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/Intranet/projects/1?add_cards_query=is%3Aopen |
+
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
