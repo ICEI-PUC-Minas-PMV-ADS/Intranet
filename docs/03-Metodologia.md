@@ -8,7 +8,7 @@ Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Defini�
 |Ambiente   | Plataforma  | Link de Acesso |
 |------|-----------------------------------------|----|
 |Repositório de código fonte| GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/Intranet |
-|Documentos do  projeto| Google Drive | https://docs.google.com/document/d/1SaZyyIWDwgL1fLgUALYmpJcJz3IPPkUKgCfG8zrCHao/edit |
+|Documentos do  projeto| Google Drive | https://docs.google.com/document/d/1SaZyyIWDwgL1fLgUALYmpJcJz3IPPkUKgCfG8zrCHao/edit?usp=sharing |
 |Projeto de Interface e Wireframes | Figma | https://www.figma.com/file/FfyN8wjoLRWjl3gzZd7MJQ/Intranet?node-id=0%3A1 |
 |Gerenciamento do Projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/Intranet/projects/1?add_cards_query=is%3Aopen |
 
