@@ -2,7 +2,7 @@
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
+Ao clonar o repositório é necessário dar o comando **npm install** no terminal. Os arquivos JSON serão responsáveis por baixar as dependências necessárias para rodar o projeto.
 
 ## Histórico de versões
 
