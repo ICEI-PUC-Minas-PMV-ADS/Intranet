@@ -1,0 +1,20 @@
+.newsImage{ 
+    cursor: pointer;
+}
+
+.colCarousel{
+    border-radius: 30px;
+    max-height: 400px;
+}
+
+.carouselImage {
+    border-radius: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.CarouselImageOne {
+    cursor: pointer;
+}
+
+

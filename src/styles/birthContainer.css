@@ -1,0 +1,61 @@
+.birthContainer {
+    width: 100%;
+    max-width: 200px;
+    margin-left: 1.5rem;
+    background-color: var(--main-color);
+    border-radius: 30px;
+    padding: 2rem;
+    margin-right: 6rem;
+    margin-top: 3rem;
+    text-align: left;
+    max-height: 300px;
+}
+
+
+.list {
+    width: 100%;
+}
+
+
+.title {
+    color: var(--off-white-color);
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.userAvatarUl {
+    padding-left: 0rem;
+}
+
+@media (max-width: 767px) {
+    .birthContainer {
+        max-width: 90%;
+        padding: 1rem;
+        justify-content: center;
+        overflow-x: auto;
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .titleContainer {
+        text-align: center;
+    }
+
+    .userAvatarUl {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        overflow-x: scroll;
+    }
+
+    .containerAvatar {
+        margin: 0.5rem;
+    }
+
+    .paddingTopMobile {
+        margin-top: 3rem;
+        overflow-x: scroll;
+    }
+
+}

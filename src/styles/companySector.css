@@ -1,0 +1,26 @@
+.cardContainer {
+    border-radius: 30px;
+    background-color: #00ADB5;
+    max-width: 16rem;
+    margin-right: 4rem;
+    font-size: 0.8rem;
+    text-align: left;
+    color: var(--off-white-color);
+    min-width: 16rem;
+    min-height: 150px;
+
+}
+
+.parentCardContainer {
+    padding-top: 3rem;
+
+}
+
+
+.textContainer {
+    padding: 1.5rem;
+}
+
+.sectorImage {
+    border-radius: 30px;
+}

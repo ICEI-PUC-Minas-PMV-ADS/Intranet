@@ -1,0 +1,16 @@
+.navBar {
+    display: none;
+}
+
+
+@media (max-width:992px) {
+    .navBar {
+        display: contents;
+    }
+}
+
+@media (max-width:768px) {
+    .brand {
+        width: 150px;
+    }
+}
