@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background-gradient {
+    background-image: linear-gradient(to left, transparent 0%, rgba(0, 0, 0, 0.719) 90%), url(/img/colleagues-giving-a-fist-bump.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dfl {
+    min-height: 100vh;
+    min-width: 100vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+main.container {
+    background: #00ADB5;
+    max-width: 350px;
+    min-width: 30vh;
+    padding: 3rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    transition: all 0.3s linear;
+}
+
+main h1{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    position: relative;
+    padding: 0.2rem;
+    border-radius: none;
+    margin-bottom: 1rem;
+}
+
+.input-field .underline::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgb(255, 255, 255, 0.2);
+}
+
+.input-field .underline::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: #222831;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.input-field input:focus ~ .underline::after{
+    transform: scaleX(1);
+}
+
+.input-field input {
+    outline: none;
+    border: 2px solid #f0f0f0;
+    padding: 0.4rem;
+    width: 100%;
+    font-size: 1rem;
+    background: white;
+    color: black;
+    border-radius: 30px;
+    position: relative;
+    top: 5px;
+}
+
+.input-field.success input {
+    border-color: #2ecc71;
+}
+
+.input-field.error input {
+    border-color: #e74c3c;
+}
+
+.input-field input:focus {
+    outline: 0;
+}
+
+.input-field input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 5px;
+
+}
+
+.buttom {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background: #222831;
+    color: white;
+    cursor: pointer;
+    font-weight: 300;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.buttom:hover {
+    letter-spacing: 0.5px;
+    background: white;
+    color: #272727;
+    font-size: 15px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.footer span {
+    color: rgb(255, 255, 255, 0.8);
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#logomarca {
+    position: absolute;
+    max-width: 450px;
+    margin-top: 23rem;
+}

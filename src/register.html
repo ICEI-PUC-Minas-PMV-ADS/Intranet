@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <script src="/js/main.js"></script>
+    <title>SignUp - SpaceNet</title>
+</head>
+<body>
+    <div class="background-gradient">
+        <div class="dfl">
+            <main class="container">
+                <h1>Sign Up</h1>
+                <form id="form" onsubmit="signup()">
+                    <div class="input-field">
+                        <input type="text" id="reg-name" required autofocus placeholder="Name">
+                        <div class="underline"></div>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" id="reg-email" required placeholder="Email">
+                        <div class="underline"></div>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="reg-username" required placeholder="Username">
+                        <div class="underline"></div>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" id="reg-password" required placeholder="Password">
+                        <div class="underline"></div>
+                    </div>
+                    <button class="buttom" type="submit">Register</button>
+                </form>
+                <div class="footer">
+                    <span>Copyright by:<br>Project Intranet Group 5 - PUC Minas.</span>
+                </div>
+            </main>
+            <img id="logomarca" src="img/SpacenetLogo.png" alt="Logomarca">
+        </div>
+    </div>
+    <script src="/js/register-validation.js"></script>
+</body>  
+</html>
