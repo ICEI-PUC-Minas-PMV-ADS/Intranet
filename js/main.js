@@ -23,7 +23,7 @@ function signup(e){
         var json = JSON.stringify(user);
         localStorage.setItem(username, json);
         alert("User registered successfully!");
-        window.location.href="login.html";
+        window.location.href="index.html";
         
     }
 
@@ -46,7 +46,7 @@ function login(e){
         alert('Wrong pass or username.');
     } else if(username == data.username && pass == data.password){
         alert('Successfully logged in.');
-        window.location.href="index.html";
+        window.location.href="homepage.html";
     } else{
         alert('Wrong pass or username.');
     }
