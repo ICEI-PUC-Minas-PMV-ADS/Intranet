@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
-@import url(/img/colleagues-giving-a-fist-bump.jpg);
 
 * {
     margin: 0;
@@ -10,7 +9,7 @@
 }
 
 .background-gradient {
-    background-image: linear-gradient(to left, transparent 0%, rgba(0, 0, 0, 0.719) 90%), url(/img/colleagues-giving-a-fist-bump.jpg);
+    background-image: linear-gradient(to left, transparent 0%, rgba(0, 0, 0, 0.719) 90%), url(../img/colleagues-giving-a-fist-bump.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
