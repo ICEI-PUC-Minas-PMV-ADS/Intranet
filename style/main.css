@@ -152,6 +152,6 @@ form {
 
 #logomarca {
     position: absolute;
-    max-width: 450px;
-    margin-top: 23rem;
+    width: 100%;
+    max-width: 200px;
 }
