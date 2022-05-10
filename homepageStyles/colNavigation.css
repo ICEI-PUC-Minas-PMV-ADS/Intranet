@@ -1,0 +1,43 @@
+.colNavigation{
+    width: 100%;
+    max-width: 200px;
+    margin-left: 1.5rem;
+    background-color: var(--main-color);
+    border-radius: 30px;
+    padding:0.3rem;
+    overflow-y: scroll;
+    max-height: 400px;
+    color:var(--off-white-color);
+    overflow-y: scroll;
+}
+
+
+.homeNavigation {
+    padding: 0
+}
+
+.iconMargins {
+    margin-top: 1.5rem;
+}
+
+.iconContainer {
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.menuTopic {
+    font-size: 0.8em;
+    padding: 0.3rem;
+}
+
+
+
+
+@media (max-width:992px) {
+    .colNavigation {
+        display:none;
+    }
+}

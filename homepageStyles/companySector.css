@@ -1,0 +1,57 @@
+.cardContainer {
+    border-radius: 30px;
+    background-color: #00ADB5;
+    max-width: 16rem;
+    margin-right: 4rem;
+    font-size: 0.8rem;
+    text-align: left;
+    color: var(--off-white-color);
+    min-width: 16rem;
+    min-height: 150px;
+
+}
+
+.maxHeigth {
+    height: 100%;
+    padding: 1.2rem;
+}
+
+.parentCardContainer {
+    padding-top: 3rem;
+
+}
+
+.DisplayFlexDesktop {
+    display: flex;
+}
+
+.textContainer {
+    padding: 1.5rem;
+}
+
+.sectorImage {
+    border-radius: 30px;
+}
+
+@media (max-width: 766px) {
+    .textContainer {
+        display: none;
+    }
+
+    .DisplayBlockMobile{
+        display: block;
+    }
+
+  .cardContainer {
+      background-color: var(--off-white-color);
+  }
+
+    .sectorImage {
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .sectorImage:hover {
+        transform: scale(105%);
+        opacity: 0.8;
+    }
+}
