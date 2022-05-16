@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./homepageStyles/index.css">
-    <title>Spacenet</title>
+    <link rel="stylesheet" href="css/homepage.css">
+    <title>Home - Spacenet</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a><img class="navbar-brand brand" src="./assets/SpacenetMinorLogo.svg"></img></a>
+            <a><img class="navbar-brand brand" src="assets/SpacenetMinorLogo.svg"></img></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,16 +25,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link sr-only" href="#">Home</a>
+                            <a class="nav-link sr-only" href="homepage.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Serviços</a>
+                            <a class="nav-link" href="services.html">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Ajuda</a>
+                            <a class="nav-link" href="chamado-ti.html">Ajuda</a>
                         </li>
                         <li class="nav-item">
-                            <a href="3" class="nav-link">Sair</a>
+                            <a class="nav-link" href="index.html">Sair</a>
                         </li>
                     </ul>
                 </div>
@@ -49,26 +50,26 @@
 
                 <ul class="homeNavigation">
                     <div class="iconMargins">
-                        <a href="/">
+                        <a href="homepage.html">
                             <li class="iconContainer"></li>
                         </a>
                         <p class="menuTopic">Home</p>
                     </div>
                     <div class="iconMargins">
-                        <a href="/">
+                        <a href="services.html">
                             <li class="iconContainer"></li>
                         </a>
                         <p class="menuTopic">Serviços</p>
                     </div>
                     <div class="iconMargins">
-                        <a href="/">
+                        <a href="chamado-ti.html">
                             <li class="iconContainer"></li>
                         </a>
                         <p class="menuTopic">Ajuda</p>
 
                     </div>
                     <div class="iconMargins">
-                        <a>
+                        <a href="index.html">
                             <li class="iconContainer"></li>
                         </a>
                         <p class="menuTopic">Sair</p>
@@ -81,11 +82,11 @@
             <div id="carouselExampleControls" class="carousel slide col-lg carouselImage" data-ride="carousel">
                 <div class="carousel-inner ">
                     <div class="carousel-item active">
-                        <img class="d-block w-100 CarouselImageOne" src="./assets/newsPage2.svg" alt="First slide" />
+                        <img class="d-block w-100 CarouselImageOne" src="assets/newsPage2.svg" alt="First slide" />
                     </div>
                     <div class="carousel-item">
 
-                        <img class="d-block w-100 " src="/assets/secondCarouselImage.png" alt="Second slide" />
+                        <img class="d-block w-100 " src="assets/secondCarouselImage.png" alt="Second slide" />
                     </div>
                 </div>
 
@@ -108,7 +109,7 @@
 
                         <ul class="userAvatarUl">
                             <li class="d-flex pt-3 containerAvatar">
-                                <img src class="userAvatar"></img>
+                                <div class="userAvatar"></div>
                                 <div class="textAlign">
                                     <p class="userName">Rafael Jordão</p>
                                     <p class="userWork">Diretor de Arte</p>
@@ -131,8 +132,8 @@
                             <li class="d-flex pt-3 containerAvatar">
                                 <div class="userAvatar"></div>
                                 <div class="textAlign">
-                                    <p class="userName">{userName}</p>
-                                    <p class="userWork">{userWork}</p>
+                                    <p class="userName">Guilherme Bonfim</p>
+                                    <p class="userWork">Devenvolvedor</p>
                                 </div>
                             </li>
                         </ul>
@@ -146,7 +147,7 @@
                                 <h5 class="card-title">Setor de Tecnologia
                                 </h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <button href="/homepage" class="mainButton">Saiba mais</button>
+                                <button onclick="window.location.href='setores-da-empresa.html'" class="mainButton">Saiba mais</button>
                             </div>
                         </div>
                     </div>
