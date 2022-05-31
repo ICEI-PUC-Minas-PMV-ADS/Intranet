@@ -17,7 +17,7 @@
 
 .dfl {
     min-height: 100vh;
-    min-width: 100vw; 
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,7 +38,7 @@ main.container {
     transition: all 0.3s linear;
 }
 
-main h1{
+main h1 {
     color: white;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -83,7 +83,7 @@ form {
     transition: all 0.3s ease-in-out;
 }
 
-.input-field input:focus ~ .underline::after{
+.input-field input:focus~.underline::after {
     transform: scaleX(1);
 }
 
@@ -148,6 +148,17 @@ form {
     font-size: 0.8rem;
     text-align: center;
     padding-top: 1rem;
+}
+
+.footer>.termosepolitica {
+    text-align: center;
+    font-size: 0.75rem;
+    margin-block: 0.75rem;
+    /*margem encima e embaixo do texto*/
+    display: flex;
+    /*tipo de display em que os elemntos ficam um ao lado do outro*/
+    gap: 0.75rem;
+    /*espaço entre o termo de uso e a política*/
 }
 
 #logomarca {

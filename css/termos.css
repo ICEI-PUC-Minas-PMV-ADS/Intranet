@@ -1,0 +1,13 @@
+body {
+    background: #00ADB5;
+    font-family: sans-serif;
+}
+
+.text {
+    text-align: justify;
+    margin: 100px 8vw;
+}
+
+.voltar {
+    text-align: right;
+}

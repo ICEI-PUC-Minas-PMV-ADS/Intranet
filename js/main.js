@@ -1,5 +1,5 @@
 // Função de registro
-function signup(e){
+function signup(e) {
     event.preventDefault();
 
     // Pega os dados nos inputs do formulário
@@ -14,23 +14,24 @@ function signup(e){
         email: email,
         username: username,
         password: password,
+        termos: false,
     };
 
-    if(checkInputs() === false){
+    if (checkInputs() === false) {
         alert("Invalid form.")
     } else {
         // armazenando JSON e localStorage
         var json = JSON.stringify(user);
         localStorage.setItem(username, json);
         alert("User registered successfully!");
-        window.location.href="index.html";
-        
+        window.location.href = "index.html";
+
     }
 
 }
 
 // Função de logar
-function login(e){
+function login(e) {
     event.preventDefault();
 
     // Pega os dados nos inputs do login
@@ -42,12 +43,12 @@ function login(e){
     var data = JSON.parse(user);
 
     // Condição de login
-    if(user == null){
+    if (user == null) {
         alert('Wrong pass or username.');
-    } else if(username == data.username && pass == data.password){
+    } else if (username == data.username && pass == data.password) {
         alert('Successfully logged in.');
-        window.location.href="homepage.html";
-    } else{
+        window.location.href = "homepage.html";
+    } else {
         alert('Wrong pass or username.');
     }
 }
