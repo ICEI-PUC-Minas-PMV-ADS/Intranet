@@ -62,12 +62,23 @@ body {
 }
 
 footer {
-    padding: 3rem;
+    padding: 3rem 3rem 1rem 3rem;
 }
 
+.termosepolitica {
+    text-align: center;
+    font-size: 0.75rem;
+    padding-bottom: 3rem;
+    /*margem encima e embaixo do texto*/
+    display: flex;
+    /*tipo de display em que os elemntos ficam um ao lado do outro*/
+    gap: 1.75rem;
+    /*espaço entre o termo de uso e a política*/
+    justify-content: center;
+}
 
 @media (max-width:768px) {
-    
+
     body {
         padding: 0;
     }
