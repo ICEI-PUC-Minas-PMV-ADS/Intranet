@@ -32,8 +32,7 @@ function signup(e) {
 
 // Função de logar
 function login(e) {
-    event.preventDefault();
-
+    event.preventDefault()
     // Pega os dados nos inputs do login
     var username = document.getElementById('username').value;
     var pass = document.getElementById('password').value;
@@ -46,9 +45,17 @@ function login(e) {
     if (user == null) {
         alert('Wrong pass or username.');
     } else if (username == data.username && pass == data.password) {
+        localStorage.setItem("usuariologado", data.username);
         alert('Successfully logged in.');
-        window.location.href = "homepage.html";
+
+        if (data.termos) {
+            window.location.href = "homepage.html";
+        } else {
+            window.location.href = "aceite-termos.html";
+        }
+
     } else {
         alert('Wrong pass or username.');
     }
+
 }
