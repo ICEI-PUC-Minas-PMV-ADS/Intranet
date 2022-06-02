@@ -12,3 +12,18 @@ body {
 .voltar {
     text-align: right;
 }
+
+button {
+    background-color: white;
+    border: 2px solid #03494d;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer
+}
+
+button:hover {
+    background-color: #03494d;
+    color: white;
+
+
+}

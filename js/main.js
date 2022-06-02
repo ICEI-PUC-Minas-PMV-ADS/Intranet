@@ -59,3 +59,18 @@ function login(e) {
     }
 
 }
+//função para salvar a informação que o usuário logado aceitou os termos
+function aceitou() {
+    // pegar o nome do usuário logado
+    var usuariologado = localStorage.getItem("usuariologado");
+    // pegar os dados desse usuário logado
+    var user = localStorage.getItem(usuariologado);
+    user = JSON.parse(user);
+    // trocar o valor do termos pra true
+    user.termos = true
+    // salvar esses novos dados
+    user = JSON.stringify(user);
+    localStorage.setItem(usuariologado, user);
+    // redirecionar pra a homepage
+    window.location.href = "homepage.html";
+}
