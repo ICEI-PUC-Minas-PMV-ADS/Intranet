@@ -67,7 +67,7 @@ function aceitou() {
     var user = localStorage.getItem(usuariologado);
     user = JSON.parse(user);
     // trocar o valor do termos pra true
-    user.termos = true
+    user = { ...user, termos: true }
     // salvar esses novos dados
     user = JSON.stringify(user);
     localStorage.setItem(usuariologado, user);
