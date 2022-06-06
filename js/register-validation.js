@@ -73,7 +73,7 @@ for ( field of fields ) {
         e.preventDefault()
         customValidation(e)
     })
-    field.addEventListener("blur", customValidation)
+    field.addEventListener("keyup", customValidation)
 }
 
 form.addEventListener('submit', (e) => {

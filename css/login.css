@@ -101,20 +101,20 @@ form {
 }
 
 span.error {
-    display: flex;
     padding: 0;
     background-color: #e74c3c;
     font-size: 10px;
     color: white;
-    align-items: center;
-    justify-content: center;
-    border-radius: 12px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
 }
 
 span.error.active {
     border: 1px solid #272727;
     padding: 0.4rem;
-    margin-top: 0.5rem;
+    z-index: 1;
+    margin-left: 0.4rem;
+    position: absolute;
 }
 
 .input-field.success input {
