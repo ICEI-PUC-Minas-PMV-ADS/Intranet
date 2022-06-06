@@ -16,18 +16,10 @@ function signup(e) {
         password: password,
         termos: false,
     };
-
-    if (checkInputs() === false) {
-        alert("Invalid form.")
-    } else {
         // armazenando JSON e localStorage
         var json = JSON.stringify(user);
         localStorage.setItem(username, json);
-        alert("User registered successfully!");
         window.location.href = "index.html";
-
-    }
-
 }
 
 // Função de logar
@@ -46,7 +38,6 @@ function login(e) {
         alert('Wrong pass or username.');
     } else if (username == data.username && pass == data.password) {
         localStorage.setItem("usuariologado", data.username);
-        alert('Successfully logged in.');
 
         if (data.termos) {
             window.location.href = "homepage.html";

@@ -100,12 +100,25 @@ form {
     top: 5px;
 }
 
-.input-field.success input {
-    border-color: #2ecc71;
+span.error {
+    display: flex;
+    padding: 0;
+    background-color: #e74c3c;
+    font-size: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
 }
 
-.input-field.error input {
-    border-color: #e74c3c;
+span.error.active {
+    border: 1px solid #272727;
+    padding: 0.4rem;
+    margin-top: 0.5rem;
+}
+
+.input-field.success input {
+    border-color: #2ecc71;
 }
 
 .input-field input:focus {
@@ -162,7 +175,7 @@ form {
 }
 
 #logomarca {
-    padding-top: 5rem;
+    padding-top: 2rem;
     width: 100%;
     max-width: 300px;
 }

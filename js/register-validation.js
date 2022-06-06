@@ -1,85 +1,92 @@
-const form = document.getElementById('form');
-const nameU = document.getElementById('reg-name');
-const email = document.getElementById('reg-email');
-const username = document.getElementById('reg-username');
-const pass = document.getElementById('reg-password')
-let errorName = false;
-let errorEmail = false;
-let errorUsername = false;
-let errorPass = false;
+const form = document.getElementById('form')
+const fields = document.querySelectorAll("[required]")
 
-form.addEventListener('keyup', (e) => {
-    e.preventDefault();
+function validateField(field) {
+    // lógica para verificar se existe erros
+    function verifyErrors() {
+        let foundError = false;
 
-    checkInputs();
-});
-
-function checkInputs() {
-    // pega os valores dos inputs
-    const nameValue = nameU.value.trim();
-    const emailValue = email.value.trim();
-    const usernameValue = username.value.trim();
-    const passValue = pass.value.trim();
-
-    if(nameValue === '' || nameValue.length <= 2) {
-        // mostra erro
-        // adiciona classe de erro
-        setErrorFor(nameU);
-        errorName = false;
-    } else {
-        // adiciona classe de sucesso
-        setSuccessFor(nameU);
-        errorName = true;
+        for(let error in field.validity) {
+            // se não for customError
+            // então verifica se tem erro
+            if (field.validity[error] && !field.validity.valid) {
+                foundError = error
+            }
+        }
+        return foundError;
     }
 
-    if(emailValue === '') {
-        setErrorFor(email);
-        errorEmail = false;
-    } else if(!ValidateEmail(emailValue)) {
-        setErrorFor(email);
-        errorEmail = false;
-    } else {
-        setSuccessFor(email);
-        errorEmail = true;
+    // mensagens customizadas para o span
+    function customMessage(typeError) {
+        const messages = {
+            text: {
+                valueMissing: "Required field"
+            },
+            email: {
+                valueMissing: "Required email",
+                typeMismatch: "Invalid email"
+            },
+            password: {
+                valueMissing: "Enter a password"
+            }
+        }
+        return messages[field.type][typeError]
     }
 
-    if(usernameValue === '' || usernameValue.length <= 3) {
-        setErrorFor(username);
-        errorUsername = false;
-    } else {
-        setSuccessFor(username);
-        errorUsername = true;
+    function setCustomMessage(message) {
+        const spanError = field.parentNode.querySelector("span.error")
+        if (message) {
+            spanError.classList.add("active")
+            spanError.innerHTML = message
+            setErrorFor(field)
+        } else {
+            spanError.classList.remove("active")
+            spanError.innerHTML = ""
+            setSuccessFor(field)
+        }
     }
 
-    if(passValue === '' || passValue.length <= 5){
-        setErrorFor(pass);
-        errorPass = false;
-    } else {
-        setSuccessFor(pass);
-        errorPass = true;
-    }
+    return function() {
+        
+        const error = verifyErrors()
 
-    return errorValidation();
+        if (Error) {
+            const message = customMessage(error)
+
+            setCustomMessage(message)
+        } else {
+            setCustomMessage()
+        }
+    }
 }
+
+function customValidation(e) {
+    const field = e.target
+    const validation = validateField(field)
+
+    validation()
+}
+
+for ( field of fields ) {
+    field.addEventListener("invalid", e => {
+        // elimina o bubble
+        e.preventDefault()
+        customValidation(e)
+    })
+    field.addEventListener("blur", customValidation)
+}
+
+form.addEventListener('submit', (e) => {
+    // não envia o formulário
+    e.preventDefault();
+})
 
 function setErrorFor(input) {
     const inputField = input.parentElement; // .input-field
-    inputField.className = 'input-field error';
+    inputField.className = 'input-field';
 }
 
 function setSuccessFor(input) {
     const inputField = input.parentElement;
     inputField.className = 'input-field success';
-}
-
-function ValidateEmail(email) {
-    return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
-}
-
-function errorValidation(){
-    if(errorName && errorEmail && errorUsername && errorPass === true ){
-        return true;
-    } else {
-        return false;
-    }
 }
