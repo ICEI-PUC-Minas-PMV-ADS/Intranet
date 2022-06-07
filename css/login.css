@@ -41,7 +41,7 @@ main.container {
 main h1 {
     color: white;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     position: relative;
     display: flex;
     align-items: center;
@@ -61,12 +61,25 @@ form {
     margin-bottom: 1rem;
 }
 
+.login-error {
+    padding: 0;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.login-error.active {
+    padding: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
 .input-field .underline::before {
     content: '';
     position: absolute;
     height: 1px;
     width: 100%;
-    bottom: -5px;
+    bottom: -10px;
     left: 0;
     background: rgb(255, 255, 255, 0.2);
 }
@@ -76,7 +89,7 @@ form {
     position: absolute;
     height: 1px;
     width: 100%;
-    bottom: -5px;
+    bottom: -10px;
     left: 0;
     background: #222831;
     transform: scaleX(0);
@@ -106,15 +119,16 @@ span.error {
     font-size: 10px;
     color: white;
     border-radius: 5px;
-    transition: all 0.5s ease-in-out;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 span.error.active {
-    border: 1px solid #272727;
+    border: 1px solid #696868;
     padding: 0.4rem;
     z-index: 1;
     margin-left: 0.4rem;
     position: absolute;
+    transition: all 0.3s ease-in-out;
 }
 
 .input-field.success input {

@@ -28,6 +28,7 @@ function login(e) {
     // Pega os dados nos inputs do login
     var username = document.getElementById('username').value;
     var pass = document.getElementById('password').value;
+    var loginError = document.getElementById('login_error');
 
     // Puxa os dados do LocalStorage
     var user = localStorage.getItem(username);
@@ -35,7 +36,8 @@ function login(e) {
 
     // Condição de login
     if (user == null) {
-        alert('Wrong pass or username.');
+        loginError.classList.add("active")
+        loginError.innerHTML = "Wrong Pass or Username."
     } else if (username == data.username && pass == data.password) {
         localStorage.setItem("usuariologado", data.username);
 
@@ -46,7 +48,8 @@ function login(e) {
         }
 
     } else {
-        alert('Wrong pass or username.');
+        loginError.classList.add("active")
+        loginError.innerHTML = "Wrong Pass or Username."
     }
 
 }
