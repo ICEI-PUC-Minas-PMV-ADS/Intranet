@@ -1,10 +1,11 @@
-.logo{
-    position: absolute;
+.logo {
     width: 210px;
     height: 70px;
     left: 35px;
     top: 21px;
 }
+
+
 
 .cardContainer {
     border-radius: 30px;
@@ -18,17 +19,18 @@
     min-height: 150px;
 
 }
-.wrapper{
-    display: flex;
+.imagemTexto{
+    padding-right: 10rem;
+    padding-left: 2rem;
+}
+.wrapper {
     justify-content: space-between;
     align-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 1em; 
-    
+    display: flex;
+
 }
 
-.navegador{
+.navegador {
     background-color: #00ADB5;
     border-radius: 10%;
     width: 250px;
@@ -37,7 +39,7 @@
     color: white;
 }
 
-.navegacao{
+.navegacao {
     padding-top: 50px;
     margin-left: 15%;
     /* padding-left: 15%; */
@@ -48,7 +50,7 @@
     line-height: 29px;
 }
 
-.icones{
+.icones {
     margin-left: 50%;
     /* padding-left: 50%; */
     padding-top: 15px;
@@ -57,25 +59,20 @@
     font-weight: 100;
     font-size: 20px;
     line-height: 29px;
-    
+
 }
 
-.imagemsetor img{
-    width: 663px;
-    height: 442px;
-    border-radius: 180px;
-    padding: 10rem;
-    
-    
+.imagemsetor img {
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    border-radius: 50px;
+
 }
 
-.textosobre h1{
-    
-    width: 200px;
-    height: 29px;
-    left: 945px;
-    top: 163px;
+.textosobre h1 {
 
+    padding: 1rem;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -85,18 +82,14 @@
     color: #00ADB5;
 }
 
-.textosobre p{
-    
-    width: 425px;
-    height: 404px;
-    left: 945px;
-    top: 212px;
-
+.textosobre p {
+    width: 100%;
+    max-width: 800px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-
+    padding: 1rem;
     color: #222831;
 }

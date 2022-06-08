@@ -5,10 +5,9 @@
     background-color: var(--main-color);
     border-radius: 30px;
     padding:0.3rem;
-    overflow-y: scroll;
+    overflow-y: hidden;
     max-height: 400px;
     color:var(--off-white-color);
-    overflow-y: scroll;
 }
 
 

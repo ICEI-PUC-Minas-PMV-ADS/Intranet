@@ -21,7 +21,6 @@
 @media (max-width:768px) {
 
     .colCarousel{
-        border-radius: 0px;
-        max-height: 400px;
+        margin: 1rem;
     }
 }
