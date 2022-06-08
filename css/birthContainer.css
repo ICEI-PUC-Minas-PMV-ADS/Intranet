@@ -4,13 +4,16 @@
     margin-left: 1.5rem;
     background-color: var(--main-color);
     border-radius: 30px;
-    padding: 2rem;
+    padding: 1rem;
     margin-right: 6rem;
     margin-top: 3rem;
     text-align: left;
     max-height: 300px;
 }
 
+.titleContainer {
+    text-align: center;
+}
 
 .list {
     width: 100%;
@@ -30,11 +33,13 @@
 
 @media (max-width: 767px) {
     .birthContainer {
-    
         justify-content: center;
         overflow-x: auto;
         width: 100%;
         padding: 0 2 2 0;
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .titleContainer {
@@ -42,15 +47,16 @@
     }
 
     .userAvatarUl {
-        
         justify-content: center;
-        padding: 1rem;
-        overflow-x: scroll;
+        overflow-y: scroll;
+        text-align: center;
     }
 
     .containerAvatar {
-        margin: 0.5rem;
+        display: flex;
+        justify-content: center;
     }
+
 
     .paddingTopMobile {
         margin-top: 3rem;
