@@ -33,6 +33,12 @@
     border-radius: 30px;
 }
 
+.sectorImageTech {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 30px;
+}
+
 @media (max-width: 766px) {
     .textContainer {
         display: none;
