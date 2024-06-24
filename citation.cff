@@ -1,0 +1,26 @@
+message: Please cite this software using these metadata.
+title: Intranet
+authors:
+  - family-names: Bonfim Lima
+    given-names: Guilherme
+  - family-names: Augusto Ferreira de Lira
+    given-names: Gustavo
+  - family-names: Fernandes
+    given-names: Matheus
+  - family-names: Fernandes
+    given-names: Michael
+  - family-names: Jordão
+    given-names: Rafael
+  - family-names: Jéssica
+    given-names: Sarah
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Carvalho Monteiro Ferreira
+    given-names: Daniela
+keywords:
+  - Gestão
+  - Intranet
+  - Relatório
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/Intranet.git
+version: 1.0.0
+date-released: 2022-06-30
